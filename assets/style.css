@@ -303,7 +303,7 @@ margin-top: -15px;
   justify-content: space-between;
   /* border: 2px solid white; */
   width: 95%;
-  height: 47vh;
+  height: 70vh;
   margin: auto auto;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -384,10 +384,10 @@ margin-top: -15px;
       flex-wrap: wrap;
       justify-content: space-between;
       /* border: 2px solid white; */
-      width: 70;
+      width: 60vw;
       height: 47vh;
       /* margin: auto auto; */
-      margin-left: -4rem;
+      margin-left: -3.75rem;
       margin-right: -5rem;
       overflow-x: hidden;
       overflow-y: scroll;
