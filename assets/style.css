@@ -29,7 +29,7 @@
 
 /* Apply the animation to the icon elements */
 .fade-in-rise {
-  animation: fadeInDrop 1s ease-out forwards; /* 1s duration, ease-out timing, forwards fill mode */
+  animation: fadeInRise 1s ease-out forwards; /* 1s duration, ease-out timing, forwards fill mode */
 }
 /* footer */
 footer{
