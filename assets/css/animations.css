@@ -1,0 +1,78 @@
+/*  */
+/*  */
+/* Animations */
+@keyframes bounce {
+  0% ,100%{
+      transform: translateY(-10px);
+  }
+  50% {
+      transform: translateY(10px);
+    }
+}
+/*  */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in{
+  animation: fadeIn 3.5s ease-out forwards;
+}
+/*  */
+@keyframes fadeInDrop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-drop {
+  animation: fadeInDrop 2s ease-out forwards;
+}
+/*  */
+@keyframes fadeInRise {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-in-rise {
+  animation: fadeInRise 2s ease-out forwards; }
+/*  */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-left {
+  animation: fadeInLeft 2s ease-out forwards; 
+}
+/*  */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fade-in-right {
+  animation: fadeInRight 2s ease-out forwards; 
+}
