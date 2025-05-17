@@ -151,6 +151,7 @@ nav ul li a:hover::after {
 }
 .linkLogos {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   list-style-type: none;
   margin-top: 7rem; 
