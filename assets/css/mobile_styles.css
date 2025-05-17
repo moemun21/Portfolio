@@ -238,6 +238,8 @@ color: #0e66ab;;
 .image > img{
   margin-top: 10px;
   width: 100%;
+  max-width: 50vw;
+  max-height: 50vw;
   height: 25vh;
   border-radius: 50%;
   box-shadow: 0 10px 20px rgba(21, 91, 189, 0.85);
