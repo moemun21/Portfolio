@@ -5,6 +5,7 @@ font-family: "Roboto Slab", serif;
 overflow: hidden;
 }
 /*  */
+.mobile_block,
 .mobile_nav{
   display: none;
 }
