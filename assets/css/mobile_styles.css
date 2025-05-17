@@ -5,6 +5,7 @@ font-family: "Roboto Slab", serif;
 /* overflow: hidden; */
 }
 /*  */
+.desktop_block,
 .desktop_nav{
   display: none;
 }
@@ -152,12 +153,15 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  margin-top: 12rem;
-  font-size: 35px;
+  margin-top: 7rem; 
+  font-size: 5vw;
+  text-align: left; 
+  margin-left: 3vw;
 }
 .logo{
   width:10vw;
   height:10vh;
+  vertical-align: middle;
 }
 .linkLogos > li > a > span{
 margin-left:-120px;
